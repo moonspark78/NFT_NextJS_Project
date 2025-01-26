@@ -1,8 +1,6 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { GrTechnology } from "react-icons/gr";
-import { BsLightningChargeFill } from "react-icons/bs";
 import { CgMenu } from "react-icons/cg";
 import { IoClose } from "react-icons/io5";
 import { BiWallet } from "react-icons/bi";
@@ -31,9 +29,8 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <div>
             <Image src="/images/logo1.png" alt="logo" width={50} height={50}/>
-          </div>
+            <span className="font-bold text-red-600 text-lg">CryptoDev</span>  
         </div>
 
         {/* Middle Links */}
@@ -67,13 +64,13 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="fixed inset-0 bg-white z-50 flex flex-col items-start px-6 py-4">
+        <div className="fixed inset-0 bg-white z-50 shadow-lg flex flex-col items-start px-6 py-4">
           {/* Close Icon */}
           <div className="flex items-center justify-between w-full mb-8">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-              <GrTechnology size={24} className="text-blue-500" />
-              <span className="font-bold text-blue-500 text-lg">TechDev</span>
+            <Image src="/images/logo1.png" alt="logo" width={50} height={50}/>
+            <span className="font-bold text-red-600 text-lg">CryptoDev</span>  
             </div>
             <IoClose
               size={28}
@@ -84,11 +81,11 @@ const Navbar: React.FC = () => {
 
           {/* Links */}
           <div className="flex flex-col space-y-4 w-full">
-            {["Home", "Features", "Services", "Reviews", "Teams", "Pricing", "Contact"].map((link) => (
+            {["Home", "About", "Explor", "Ressource", "Contact"].map((link) => (
               <a
                 key={link}
                 href={`#${link.toLowerCase()}`}
-                className="text-gray-700 hover:text-blue-500 transition font-medium border-b border-gray-300 pb-2 w-full"
+                className="text-gray-700 hover:text-red-600 transition font-medium border-b border-gray-300 pb-2 w-full"
               >
                 {link}
               </a>
@@ -96,10 +93,7 @@ const Navbar: React.FC = () => {
           </div>
 
           {/* Button */}
-          <button className="mt-8 flex items-center bg-blue-500 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-600 transition self-start">
-            <BsLightningChargeFill className="mr-2" />
-            Create Account
-          </button>
+        
         </div>
       )}
     </div>
