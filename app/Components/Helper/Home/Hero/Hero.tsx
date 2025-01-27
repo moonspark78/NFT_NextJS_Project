@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Hero = () => {
@@ -22,7 +23,9 @@ const Hero = () => {
               </div>
             </div>
             {/* Image Content */}
-            <div></div>
+            <div className='col-span-3'>
+              <Image alt='image-hero' src="/images/hero2.png" width={700} height={700}/>
+            </div>
         </div>
     </div>
   )
