@@ -28,6 +28,21 @@ const HotBidCard = ({data}:Props) => {
             className='w-full h-full object-cover'
           />
         </div>
+        <div>
+            <div className='flex mt-6 items-center justify-between'>
+              <h1 className='text-blue-950 hover:text-blue-700 transition-all duration-200 texte-base font-bold'>
+                {data.name}
+              </h1>
+              <span className='px-2 py-1 border-[1px] rounded-md border-gray-500 text-xs text-green-700 font-bold'>
+                {data.eth} ETH
+              </span>
+            </div>
+            <p className='mt-2 mb-2 text-gray-700'>
+              <span className='text-yellow-500'>
+                {data.currentBid} 
+              </span> ETH
+            </p>
+          </div>
       </div>
     </Tilt>
   )
