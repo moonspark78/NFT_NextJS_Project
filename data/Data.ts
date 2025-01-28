@@ -51,9 +51,17 @@ export const HotBidData = [
     id: 7,
     image: "/images/h7.png",
     name: "Cyber Corgi",
-    eth: 1.48,
+    eth: 3.48,
     currentBid: 0.2,
     love: 95,
+  },
+  {
+    id: 8,
+    image: "/images/h8.png",
+    name: "Monkey King",
+    eth: 7.48,
+    currentBid: 0.6,
+    love: 123,
   },
 ];
 

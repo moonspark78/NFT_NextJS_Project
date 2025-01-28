@@ -1,6 +1,7 @@
 "use client";
 import Image from 'next/image';
 import React from 'react'
+import { BsHeart } from 'react-icons/bs';
 import Tilt from 'react-parallax-tilt';
 
 
@@ -42,6 +43,15 @@ const HotBidCard = ({data}:Props) => {
                 {data.currentBid} 
               </span> ETH
             </p>
+            <div className='flex items-center mt-4 justify-between'>
+              <h1 className='text-indigo-950 text-sm font-bold'>
+                Place Bid
+              </h1>
+              <div className='flex items-center text-gray-600 space-x-2'> 
+                  <BsHeart/>
+                  <span className='text-sm'>{data.love}</span>
+                </div>
+            </div>
           </div>
       </div>
     </Tilt>
