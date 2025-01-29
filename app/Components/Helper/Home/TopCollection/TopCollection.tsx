@@ -1,3 +1,4 @@
+import { TopCollectionData } from '@/data/Data'
 import React from 'react'
 
 const TopCollection = () => {
@@ -7,6 +8,13 @@ const TopCollection = () => {
         Top Collection over {" "}
         <span className='text-amber-600'>Last 24 Hours</span>
       </h1>
+      <div className='mt-16 w-[80%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12'>
+        {
+            TopCollectionData.map((data) =>{
+              return <div key={data.id}></div>
+            })
+        }
+      </div>
     </div>
   )
 }
