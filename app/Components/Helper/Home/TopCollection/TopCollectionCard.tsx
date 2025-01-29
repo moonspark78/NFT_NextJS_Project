@@ -1,6 +1,17 @@
 import React from 'react'
 
-const TopCollectionCard = () => {
+
+type Props ={
+    data: {
+        id: number;
+        image: string;
+        name: string;
+        eth: number;
+    }
+    
+}
+
+const TopCollectionCard = ({data}: Props) => {
   return (
     <div>TopCollectionCard</div>
   )
