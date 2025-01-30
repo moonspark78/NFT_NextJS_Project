@@ -2,6 +2,7 @@
 import { HotBidData } from '@/data/Data';
 import React from 'react'
 import Carousel from 'react-multi-carousel';
+import "react-multi-carousel/lib/styles.css";
 import HotBidCard from '../HotBids/HotBidCard';
 
 
@@ -33,7 +34,8 @@ const CategorySlider = () => {
     centerMode={false}
     infinite
     responsive={responsive}
-    itemClass='item'>
+    itemClass='item px-2'
+    >
       {HotBidData.map((data) =>{
         return <div key={data.id}>
           <HotBidCard data={data}/>
