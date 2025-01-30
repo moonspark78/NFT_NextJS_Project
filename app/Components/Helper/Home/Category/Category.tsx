@@ -26,21 +26,11 @@ const responsive = {
 
 const Category = () => {
   return (
-    <Carousel
-      additionalTransfrom={0}
-      arrows={false}
-      autoPlay={true}
-      autoPlaySpeed={5000}
-      centerMode={false}
-      infinite
-      responsive={responsive}
-      itemClass='item'>
-        {HotBidData.map((data) =>{
-          return <div key={data.id}>
-            <HotBidCard data={data}/>
-          </div>
-        })}
-    </Carousel>
+    <div className='pt-16 pb-12'>
+      <h1 className='text-center font-bold text-3xl p-2 md:text-4xl text-blue-950'>
+        Trending Categories
+      </h1>
+    </div>
   )
 }
 
