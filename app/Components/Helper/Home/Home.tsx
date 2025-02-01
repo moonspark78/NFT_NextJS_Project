@@ -3,6 +3,7 @@ import Hero from './Hero/Hero'
 import HotBids from './HotBids/HotBids'
 import TopCollection from './TopCollection/TopCollection'
 import Category from './Category/Category'
+import CreateSellNft from './CreateSellNft/CreateSellNft'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <HotBids/>
       <TopCollection/>
       <Category/>
+      <CreateSellNft/>
     </div>
   )
 }
