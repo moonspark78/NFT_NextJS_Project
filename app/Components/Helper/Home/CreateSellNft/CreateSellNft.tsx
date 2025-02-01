@@ -23,7 +23,6 @@ const CreateSellNft = () => {
             
         </div>
     </div>
-    </div>
   )
 }
 

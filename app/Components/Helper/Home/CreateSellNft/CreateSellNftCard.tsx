@@ -14,6 +14,10 @@ const CreateSellNftCard = ({image, title}:Props) => {
         <h1 className='mt-8 mb-2 text-center text-lg text-blue-950 font-bold'>
             {title}
         </h1>
+        <p className='text-sm text-black text-center text-opacity-60'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Magnam repudiandae odio quisquam aliquid doloribus voluptate vero voluptatum deserunt laudantium nulla.
+        </p>
     </div>
   )
 }
