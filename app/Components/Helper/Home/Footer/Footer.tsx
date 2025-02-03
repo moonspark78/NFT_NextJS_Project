@@ -15,11 +15,20 @@ const Footer = () => {
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis provident aliquid odit.
           </p>
           <div className='mt-4 flex items-center space-x-4'>
-            <FaFacebookF/>
-            <FaTwitter/>
-            <FaYoutube/>
-            <FaInstagram/>
+            <FaFacebookF className='w-6 h-6 text-blue-700 cursor-pointer'/>
+            <FaTwitter className='w-6 h-6 text-sky-500 cursor-pointer'/>
+            <FaYoutube className='w-6 h-6 text-rose-700 cursor-pointer'/>
+            <FaInstagram className='w-6 h-6 text-pink-700 cursor-pointer'/>
           </div>
+        </div>
+        {/* 2nd Footer Part */}
+        <div className='md:mx-auto mx-0'>
+          <h1 className="footer__link">MarketPlace</h1>
+          <p className="footer__link">All NFTs</p>
+          <p className="footer__link">Art</p>
+          <p className="footer__link">Music</p>
+          <p className="footer__link"> Collectibles</p>
+          <p className="footer__link">Wallets</p>
         </div>
       </div>
     </div>
