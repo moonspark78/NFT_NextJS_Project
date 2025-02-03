@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         {/* 2nd Footer Part */}
         <div className='md:mx-auto mx-0'>
-          <h1 className="footer__link">MarketPlace</h1>
+          <h1 className="footer__title">MarketPlace</h1>
           <p className="footer__link">All NFTs</p>
           <p className="footer__link">Art</p>
           <p className="footer__link">Music</p>
