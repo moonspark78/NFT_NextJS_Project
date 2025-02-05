@@ -37,6 +37,12 @@ const Footer = () => {
           <p className="footer__link">Migration Guide</p>
           <p className="footer__link">API Reference</p>
           <p className="footer__link">View All Docs</p>
+          <p className="footer__link">System Status</p>
+        </div>
+        {/* 4th Footer Part */}
+        <div className='lg:mx-auto mx-0'>
+           <h1 className="footer__title">Legal</h1>
+           <p className="footer__link">Privacy Policy</p>
         </div>
       </div>
     </div>
