@@ -45,6 +45,7 @@ const Footer = () => {
            <p className="footer__link">Privacy Policy</p>
            <p className="footer__link">Terms and Conditions</p>
            <p className="footer__link">GDPR</p>
+           <p className="footer__link">Fair Billing Policy</p>
         </div>
       </div>
     </div>
