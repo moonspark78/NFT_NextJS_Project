@@ -43,6 +43,8 @@ const Footer = () => {
         <div className='lg:mx-auto mx-0'>
            <h1 className="footer__title">Legal</h1>
            <p className="footer__link">Privacy Policy</p>
+           <p className="footer__link">Terms and Conditions</p>
+           <p className="footer__link">GDPR</p>
         </div>
       </div>
     </div>
