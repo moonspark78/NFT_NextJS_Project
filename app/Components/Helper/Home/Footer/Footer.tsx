@@ -36,6 +36,7 @@ const Footer = () => {
           <p className="footer__link">Quickstart Guide</p>
           <p className="footer__link">Migration Guide</p>
           <p className="footer__link">API Reference</p>
+          <p className="footer__link">View All Docs</p>
         </div>
       </div>
     </div>
