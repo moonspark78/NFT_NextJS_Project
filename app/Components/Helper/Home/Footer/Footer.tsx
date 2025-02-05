@@ -33,6 +33,9 @@ const Footer = () => {
         {/* 3rd Footer Part */}
         <div className='lg:mx-auto mx-0'>
           <h1 className="footer__title">Company</h1>
+          <p className="footer__link">Quickstart Guide</p>
+          <p className="footer__link">Migration Guide</p>
+          <p className="footer__link">API Reference</p>
         </div>
       </div>
     </div>
