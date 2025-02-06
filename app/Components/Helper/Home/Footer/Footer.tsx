@@ -48,6 +48,7 @@ const Footer = () => {
            <p className="footer__link">Fair Billing Policy</p>
         </div>
       </div>
+      <div>Moonspark</div>
     </div>
   )
 }
